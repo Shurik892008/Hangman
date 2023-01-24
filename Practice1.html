@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <script src="Practice1.js" defer></script>
+    <link rel="stylesheet" href="Practice1.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Hangman</h1>
+      <p>
+        Використовуйте приведений нижче алфавіт, щоб відгадати слово, або
+        натисніть на кнопку "Підказка" для того щоб отримати підказку
+      </p>
+    </div>
+
+    <div class="wrapper">
+      <div class="alphabetButton" id="alphabetButtons"></div>
+      <p id="categoryName"></p>
+      <div id="hold"></div>
+      <p id="mylives"></p>
+      <p id="clue">Текст підказки-</p>
+      <canvas id="stickman"
+        >This Text will show if the Browser does NOT support HTML5 Canvas
+        tag</canvas
+      >
+      <div class="container">
+        <button class="btn-2" id="hint">Підказка</button>
+        <button class="btn-2" id="reset">Грати знову</button>
+      </div>
+    </div>
+  </body>
+</html>
